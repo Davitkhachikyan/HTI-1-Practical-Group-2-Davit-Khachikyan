@@ -4,3 +4,5 @@ if year[-2:] == "00":
 else:
     age = int(year) // 100 + 1
 print(age)
+
+
