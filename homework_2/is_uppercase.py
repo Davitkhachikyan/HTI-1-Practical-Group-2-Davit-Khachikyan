@@ -11,7 +11,3 @@ def uppercase(text):
 
 
 print(uppercase(""))
-
-
-
-
