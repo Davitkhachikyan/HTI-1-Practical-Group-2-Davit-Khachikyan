@@ -10,4 +10,5 @@ def uppercase(text):
         return "No"
 
 
-print(uppercase(""))
+user_input = input("Enter a word: ")
+print(uppercase(user_input))
