@@ -1,11 +1,12 @@
 def summery(number):
-    sum = 0
+    total = 0
     for i in number:
-        sum += int(i)
-    if sum < 10:
-        return sum
+        total += int(i)
+    if total < 10:
+        return total
     else:
-        return summery(str(sum))
+        return summery(str(total))
 
 
-print(summery("12341"))
+user_output = input("Enter a number: ")
+print(summery(user_output))
