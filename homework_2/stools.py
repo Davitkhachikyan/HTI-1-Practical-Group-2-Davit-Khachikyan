@@ -1,3 +1,4 @@
+
 def stools(height):
     int_list = []
     summery = 0
